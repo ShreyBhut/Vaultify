@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Login - Password Manager</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <div class="container mt-5">
+    <h2 class="mb-4">Login</h2>
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        {% for category, message in messages %}
+          <div class="alert alert-{{ category }}">{{ message }}</div>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
+
+    <!-- Login Form -->
+    <form method="POST" action="{{ url_for('login') }}">
+      <div class="form-group">
+        <label for="master">Master Password:</label>
+        <div class="input-group">
+          <input type="password" class="form-control" name="master" id="master" required>
+          <div class="input-group-append">
+            <button type="button" class="btn btn-outline-secondary" id="togglePassword">
+              👁
+            </button>
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+
+    <hr>
+
+    <!-- Update Master Password-->
+    <button
+      class="btn btn-primary"
+      type="button"
+      data-toggle="collapse"
+      data-target="#updateMasterSection"
+      aria-expanded="false"
+      aria-controls="updateMasterSection"
+    >
+      Update Master Password
+    </button>
+
+    <div class="collapse" id="updateMasterSection">
+      <div class="card card-body">
+        <form method="POST" action="{{ url_for('reset_master_password') }}">
+          <div class="form-group">
+            <label for="old_master">Current Master Password:</label>
+            <div class="input-group">
+              <input type="password" class="form-control" name="old_master" id="old_master" required>
+              <div class="input-group-append">
+                <button type="button" class="btn btn-outline-secondary" id="toggleOldMaster">
+                  👁
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="new_master">New Master Password:</label>
+            <div class="input-group">
+              <input type="password" class="form-control" name="new_master" id="new_master" required>
+              <div class="input-group-append">
+                <button type="button" class="btn btn-outline-secondary" id="toggleNewMaster">
+                  👁
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="confirm_master">Confirm New Master Password:</label>
+            <div class="input-group">
+              <input type="password" class="form-control" name="confirm_master" id="confirm_master" required>
+              <div class="input-group-append">
+                <button type="button" class="btn btn-outline-secondary" id="toggleConfirmMaster">
+                  👁
+                </button>
+              </div>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-warning">Update Master Password</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const toggleBtn = document.getElementById('togglePassword');
+    const masterField = document.getElementById('master');
+    toggleBtn.addEventListener('click', () => {
+      masterField.type = (masterField.type === 'password') ? 'text' : 'password';
+    });
+
+    const toggleOld = document.getElementById('toggleOldMaster');
+    const oldMasterField = document.getElementById('old_master');
+    toggleOld.addEventListener('click', () => {
+      oldMasterField.type = (oldMasterField.type === 'password') ? 'text' : 'password';
+    });
+
+    const toggleNew = document.getElementById('toggleNewMaster');
+    const newMasterField = document.getElementById('new_master');
+    toggleNew.addEventListener('click', () => {
+      newMasterField.type = (newMasterField.type === 'password') ? 'text' : 'password';
+    });
+
+    const toggleConfirm = document.getElementById('toggleConfirmMaster');
+    const confirmMasterField = document.getElementById('confirm_master');
+    toggleConfirm.addEventListener('click', () => {
+      confirmMasterField.type = (confirmMasterField.type === 'password') ? 'text' : 'password';
+    });
+  </script>
+</body>
+</html>
+
