@@ -26,7 +26,7 @@ Vaultify is a password managing Chrome extension. Vaultify encrypts and stores y
     ```sh
     python app.py
     ```
-    This starts the server on [http://localhost:5678](http://localhost:5678), which handles encryption and decryption requests. (You can change the port in `server.py` if needed.)
+    This starts the server on [http://localhost:5678](http://localhost:5678), which handles encryption and decryption requests. (You can change the port in `app.py` if needed.)
 
 2. **Login into Vaultify:**
 
