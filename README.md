@@ -1,4 +1,4 @@
-# 🔐 Vaultify - Password Manager Chrome Extension
+# 🔐 Vaultify - Password Managing Chrome Extension
 
 Vaultify is a password managing Chrome extension. Vaultify encrypts and stores your passwords with the power of AES-128-CBC encryption. Vaultify can also auto-detect the login page of a website and provide you with its password. Vaultify works on any Chromium-based browser.
 
@@ -31,7 +31,7 @@ Vaultify is a password managing Chrome extension. Vaultify encrypts and stores y
 2. **Login into Vaultify:**
 
     Enter the master password to access the password manager.  
-    You can change the master password by using the update password button.  
+    You can change the master password by using the update master password button.  
     *(Initial master password = MasterPasswordVaultify)*
 
 3. **Managing Passwords:**
@@ -43,7 +43,11 @@ Vaultify is a password managing Chrome extension. Vaultify encrypts and stores y
 
 4. **Auto-Detecting Websites:**
 
-    Visit any website's sign-in/sign-up page and then click on the Vaultify logo. It will automatically detect the website.  
+    Visit any website's sign-in/sign-up page and then click on the Vaultify logo . 
+
+    ![pslogo](https://github.com/user-attachments/assets/f81e20ae-a7b7-48f9-b280-76a42ebea8a3)
+
+    It will automatically detect the website.  
     *(If the website is not detected upon opening the sign-in/sign-up page, refresh the page and click on the Vaultify logo again.)*
 
     ![Screenshot 2025-01-26 070228](https://github.com/user-attachments/assets/34b96f2b-c0c7-4b15-a415-47dadbc480ca)
@@ -55,6 +59,9 @@ Vaultify is a password managing Chrome extension. Vaultify encrypts and stores y
 ## 🌟 Vaultify in the Working
 
 ![Screenshot 2025-01-26 072200](https://github.com/user-attachments/assets/4de8ddd4-e9f1-46a4-8720-0b1d7802a408)  
-![Screenshot 2025-01-26 072030](https://github.com/user-attachments/assets/305923f6-0675-4909-820c-773bc71a6e08)  
+![Screenshot 2025-01-26 072030](https://github.com/user-attachments/assets/305923f6-0675-4909-820c-773bc71a6e08)
+
+
+
 ![Screenshot 2025-01-26 072555](https://github.com/user-attachments/assets/08d71406-ebff-49d7-8597-e7f06694a0e2)  
 ![Screenshot 2025-01-26 072742](https://github.com/user-attachments/assets/c39c3656-cf67-4608-9931-0de27460f631)
