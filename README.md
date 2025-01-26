@@ -45,23 +45,33 @@ Vaultify is a password managing Chrome extension. Vaultify encrypts and stores y
 
     Visit any website's sign-in/sign-up page and then click on the Vaultify logo . 
 
-    ![pslogo](https://github.com/user-attachments/assets/f81e20ae-a7b7-48f9-b280-76a42ebea8a3)
+    <img src="https://github.com/user-attachments/assets/f81e20ae-a7b7-48f9-b280-76a42ebea8a3" alt="pslogo" width="100"> 
 
     It will automatically detect the website.  
     *(If the website is not detected upon opening the sign-in/sign-up page, refresh the page and click on the Vaultify logo again.)*
 
-    ![Screenshot 2025-01-26 070228](https://github.com/user-attachments/assets/34b96f2b-c0c7-4b15-a415-47dadbc480ca)
+    <img src="https://github.com/user-attachments/assets/34b96f2b-c0c7-4b15-a415-47dadbc480ca" alt="Screenshot 2025-01-26 070228" width="250">
 
     After the website is detected, enter the master password of the password manager. After verifying the master password, the password for that website will be fetched from the password manager, and an option to copy the password to the clipboard will appear.
 
-    ![Screenshot 2025-01-26 070429](https://github.com/user-attachments/assets/ea6bbf02-18e9-4aaf-8f9d-2c2ff86130d3)
+    <img src="https://github.com/user-attachments/assets/ea6bbf02-18e9-4aaf-8f9d-2c2ff86130d3" alt= "Screenshot 2025-01-26 070429" width="250">
 
 ## 🌟 Vaultify in the Working
 
-![Screenshot 2025-01-26 072200](https://github.com/user-attachments/assets/4de8ddd4-e9f1-46a4-8720-0b1d7802a408)  
-![Screenshot 2025-01-26 072030](https://github.com/user-attachments/assets/305923f6-0675-4909-820c-773bc71a6e08)
+<img src="https://github.com/user-attachments/assets/4de8ddd4-e9f1-46a4-8720-0b1d7802a408" alt= "Screenshot 2025-01-26 072200" width="750">
 
+<br>
 
+<img src="https://github.com/user-attachments/assets/305923f6-0675-4909-820c-773bc71a6e08" alt= "Screenshot 2025-01-26 072030" width="750">
 
-![Screenshot 2025-01-26 072555](https://github.com/user-attachments/assets/08d71406-ebff-49d7-8597-e7f06694a0e2)  
-![Screenshot 2025-01-26 072742](https://github.com/user-attachments/assets/c39c3656-cf67-4608-9931-0de27460f631)
+<br>
+
+<img src="https://github.com/user-attachments/assets/b2abbe36-535f-4c26-9663-701c56de55e7" alt= "Screenshot 2025-01-27 000824" width="750">
+
+<br>
+
+<img src="https://github.com/user-attachments/assets/08d71406-ebff-49d7-8597-e7f06694a0e2" alt= "Screenshot 2025-01-26 072555" width="750">
+
+<br>
+
+<img src="https://github.com/user-attachments/assets/c39c3656-cf67-4608-9931-0de27460f631" alt= "Screenshot 2025-01-26 072742" width="750">
